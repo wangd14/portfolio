@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "https://github.com/wangd14/portfolio",
+  output: "export",
+  reactStrictMode: true,
 };
 
 export default nextConfig;
