@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <Flex className="pt-9" direction="column" gap="3">
       <Heading size="7" className="text-[var(--olive-12)]">
-        experience
+        Experience
       </Heading>
       {experiences.map((experience, id) => (
         <ExperienceCard
@@ -21,7 +21,7 @@ const Experience = () => {
         />
       ))}
       <Heading size="7" className="text-[var(--olive-12)]" id="projects">
-        projects
+        Projects
       </Heading>
       {projects.map((project, id) => (
         <ProjectCard
