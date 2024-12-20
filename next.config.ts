@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: "https://github.com/wangd14/portfolio",
 };
 
 export default nextConfig;
