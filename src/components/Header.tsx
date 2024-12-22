@@ -4,7 +4,7 @@ import { Flex, Container } from "@radix-ui/themes";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 const Links = () => {
   return (
-    <Flex direction="row" gap="3" align="end">
+    <Flex direction="row" gap="3" align="end" className=" hidden sm:flex">
       <Link href="https://github.com/wangd14">
         <Flex
           direction="row"
@@ -33,19 +33,21 @@ const Links = () => {
 
 const Navigation = () => {
   return (
-    <Flex direction="row" gap="5" align="end">
+    <Flex direction="row" gap="5" gapY="2" align="end" wrap="wrap">
       <Link href="/" className="text-xl align-bottom font-bold hover:underline">
         david wang
       </Link>
-      <Link href="/exp" className="align-bottom hover:underline">
-        experience
-      </Link>
-      <Link href="/exp#projects" className="align-bottom hover:underline">
-        projects
-      </Link>
-      <Link href="/contact" className="align-bottom hover:underline">
-        contact
-      </Link>
+      <Flex direction="row" gap="5" align="end">
+        <Link href="/exp" className="align-bottom hover:underline">
+          experience
+        </Link>
+        <Link href="/exp#projects" className="align-bottom hover:underline">
+          projects
+        </Link>
+        <Link href="/contact" className="align-bottom hover:underline">
+          contact
+        </Link>
+      </Flex>
     </Flex>
   );
 };
