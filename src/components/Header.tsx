@@ -37,7 +37,7 @@ const Navigation = () => {
       <Link href="/" className="text-xl align-bottom font-bold hover:underline">
         david wang
       </Link>
-      <Flex direction="row" gap="5" align="end">
+      <Flex direction="row" gap="5" gapY="1" align="end" wrap="wrap">
         <Link href="/exp" className="align-bottom hover:underline">
           experience
         </Link>

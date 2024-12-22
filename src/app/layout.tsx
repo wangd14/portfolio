@@ -36,7 +36,7 @@ export default function RootLayout({
         <Theme accentColor="gold">
           <Flex
             direction="column"
-            className="min-h-screen text-[var(--olive-11)] bg-[#D3D9D3] px-4 sm:px-6 md:px-8"
+            className="min-h-screen text-[var(--olive-11)] bg-[#D3D9D3] px-6 md:px-8 min-w-64"
             justify="between"
           >
             <Box className="flex-grow">

@@ -5,7 +5,7 @@ import { FaAt } from "react-icons/fa6";
 
 const Links = () => {
   return (
-    <Flex gap="3" pt="5" wrap="wrap">
+    <Flex gap="3" pt="5" wrap="wrap" className="justify-center">
       <Link href="mailto:wangd14@rpi.edu">
         <Flex
           direction="row"
