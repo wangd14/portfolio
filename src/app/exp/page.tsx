@@ -7,7 +7,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const Experience = () => {
   return (
-    <Flex className="pt-9" direction="column" gap="3">
+    <Flex className="pt-7" direction="column" gap="3">
       <Heading size="7" className="text-[var(--olive-12)]">
         Experience
       </Heading>

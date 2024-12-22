@@ -3,7 +3,7 @@ import { Flex, Heading, Text } from "@radix-ui/themes";
 export default function Home() {
   return (
     <Flex>
-      <Flex direction="column" gap="5" className="pt-9" maxWidth="512px">
+      <Flex direction="column" gap="5" className="pt-7" maxWidth="512px">
         <Heading size="8" className="text-[var(--olive-12)]">
           welcome! i&apos;m david
         </Heading>

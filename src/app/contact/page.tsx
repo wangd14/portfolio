@@ -5,7 +5,7 @@ import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const Contact = () => {
   return (
-    <Flex direction="column" gap="5" className="pt-9" maxWidth="512px">
+    <Flex direction="column" gap="5" className="pt-7" maxWidth="512px">
       <Text size="5" className="font-ibm-plex">
         The best way to contact me is to email me at wangd14@rpi.edu. I&apos;m
         pretty responsive.

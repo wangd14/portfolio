@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${ibmPlexSans.variable} antialiased`}
+        className={`${outfit.variable} ${ibmPlexSans.variable} antialiased bg-[#D3D9D3]`}
       >
         <Theme accentColor="gold">
           <Flex
