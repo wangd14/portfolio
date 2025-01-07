@@ -21,6 +21,9 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "hey, i'm david",
   description: "david's personal webpage",
+  icons: {
+    icon: "/no_david.jpg",
+  },
 };
 
 export default function RootLayout({
