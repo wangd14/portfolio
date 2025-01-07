@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Heading, Text, Flex } from "@radix-ui/themes";
 import Image from "next/image";
 import { Experience } from "@/data/interface";
+import HoverLink from "./HoverLink";
 
 const ExperienceCard = (props: Experience) => {
   return (
@@ -17,7 +18,13 @@ const ExperienceCard = (props: Experience) => {
 
       <Box className="flex-grow">
         <Flex justify="between">
-          <Heading size="4">{props.title}</Heading>
+          {props.href ? (
+            <HoverLink href={props.href}>
+              <Heading size="4">{props.title}</Heading>
+            </HoverLink>
+          ) : (
+            <Heading size="4">{props.title}</Heading>
+          )}
           <Text>{props.date}</Text>
         </Flex>
         <Text as="div">{props.description}</Text>

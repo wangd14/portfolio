@@ -17,6 +17,7 @@ const Experience = () => {
           title={experience.title}
           description={experience.description}
           date={experience.date}
+          href={experience.href}
           key={id}
         />
       ))}
@@ -28,6 +29,7 @@ const Experience = () => {
           title={project.title}
           description={project.description}
           link={project.link}
+          linkText={project.linkText}
           icon={project.icon}
           key={id}
         />

@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Text, Box } from "@radix-ui/themes";
-import Link from "next/link";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import HoverLink from "@/components/HoverLink";
 
 const Contact = () => {
   return (
@@ -16,7 +16,7 @@ const Contact = () => {
         </Text>
         <ul className="list-disc">
           <li className="flex items-center before:text-2xl before:content-['•'] before:w-4">
-            <Link href="https://github.com/wangd14">
+            <HoverLink href="https://github.com/wangd14">
               <Text size="3" className="font-ibm-plex">
                 <Flex
                   direction="row"
@@ -28,10 +28,10 @@ const Contact = () => {
                   /wangd14
                 </Flex>
               </Text>
-            </Link>
+            </HoverLink>
           </li>
           <li className="flex items-center before:text-2xl before:content-['•'] before:w-4">
-            <Link href="https://www.linkedin.com/in/dw5/">
+            <HoverLink href="https://www.linkedin.com/in/dw5/">
               <Text size="3" className="font-ibm-plex">
                 <Flex
                   direction="row"
@@ -43,7 +43,7 @@ const Contact = () => {
                   /in/dw5
                 </Flex>
               </Text>
-            </Link>
+            </HoverLink>
           </li>
         </ul>
       </Box>

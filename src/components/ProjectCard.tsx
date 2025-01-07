@@ -1,7 +1,8 @@
 import React from "react";
-import { Box, Heading, Text, Flex, Link } from "@radix-ui/themes";
+import { Box, Heading, Text, Flex } from "@radix-ui/themes";
 import Image from "next/image";
 import { Project } from "@/data/interface";
+import HoverLink from "./HoverLink";
 
 const ProjectCard = (props: Project) => {
   return (
@@ -19,7 +20,7 @@ const ProjectCard = (props: Project) => {
           <Heading size="4">{props.title}</Heading>
         </Flex>
         <Text as="div">{props.description}</Text>
-        <Link>{props.link}</Link>
+        <HoverLink href={props.link}>{props.linkText}</HoverLink>
       </Box>
     </Flex>
   );
