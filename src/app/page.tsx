@@ -30,7 +30,7 @@ export default function Home() {
           working on Viewpoint, an AI email automation tool.
         </Text>
         <Text size="5" className="font-ibm-plex">
-          Check out a bit more about my experience or my resume.
+          Check out a bit more about my experience or my <HoverLink href="/David_Wang_Resume.pdf">resume</HoverLink>.
         </Text>
       </Flex>
     </Flex>
