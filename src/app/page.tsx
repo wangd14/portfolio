@@ -11,7 +11,8 @@ export default function Home() {
         <Text size="5" className="font-ibm-plex">
           I&apos;m a software engineer with an interest in AI and open source.
           I&apos;m currently interning at{" "}
-          <HoverLink href="https://www.8451.com/">84.51°</HoverLink> in Chicago.
+          <HoverLink href="https://www.amazon.com/">Amazon</HoverLink> in
+          Bellevue.
         </Text>
         <Text size="5" className="font-ibm-plex">
           Now, I&apos;m a junior at Rensselaer Polytechnic Insitute studying
@@ -24,13 +25,15 @@ export default function Home() {
         </Text>
         <Text size="5" className="font-ibm-plex">
           I&apos;m a previous intern at{" "}
+          <HoverLink href="https://www.8451.com">84.51°</HoverLink> and{" "}
           <HoverLink href="https://www.harpresearch.ai/">
             Harp Research
           </HoverLink>{" "}
           working on Viewpoint, an AI email automation tool.
         </Text>
         <Text size="5" className="font-ibm-plex">
-          Check out a bit more about my experience or my <HoverLink href="/David_Wang_Resume.pdf">resume</HoverLink>.
+          Check out a bit more about my experience or my{" "}
+          <HoverLink href="/David_Wang_Resume.pdf">resume</HoverLink>.
         </Text>
       </Flex>
     </Flex>
